@@ -1,8 +1,15 @@
+import Layout from "../Components/Layout"
 
 
 const UserDashboard = () => {
   return (
-    <div>UserDashboard</div>
+    <div>
+      <Layout/>
+         {/* Page Content */}
+     <div className="text-red-500 ">
+      My Recipes
+     </div>
+    </div>
   )
 }
 
